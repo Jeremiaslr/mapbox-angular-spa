@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+import { PlacesService } from '../../services/places.service';
+
+@Component({
+  selector: 'map-screen',
+  templateUrl: './mapscreen.component.html',
+  styleUrl: './mapscreen.component.css'
+})
+export class MapScreenComponent {
+
+  constructor( private placesService: PlacesService) {}
+
+}
