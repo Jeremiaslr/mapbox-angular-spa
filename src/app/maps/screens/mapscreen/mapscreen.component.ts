@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { PlacesService } from '../../services/places.service';
+import { PlacesService } from '../../services';
+
 
 @Component({
   selector: 'map-screen',
